@@ -94,6 +94,7 @@ services:
         path: /mosquitto/log
   - name: timer
     image: openedge-timer
+#   image: hub.baidubce.com/openedge/openedge-timer
     replica: 1
     mounts:
       - name: timer-conf
